@@ -34,6 +34,7 @@ body {
 .main-content {
   display: flex;
   align-items: center;
+  margin-bottom: 20vh;
 }
 .content-genre {
   display: block;
@@ -92,4 +93,50 @@ body {
   border-radius: 50%;
   top: -16px;
   left: -16px;
+}
+.series {
+  display: flex;
+  align-items: center;
+}
+.card {
+  width: 164px;
+  height: 113px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-right: 3vw;
+}
+.card-sub-title {
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 0.5vh;
+}
+.card-title {
+  font-size: 14px;
+  line-height: 16px;
+}
+.episode-1 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url(../media/image/episode_1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.episode-2 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url(../media/image/episode_2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.arrow {
+  width: 32px;
+  height: 23px;
+  border: none;
+  background-image: url(../media/icon/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
 }
