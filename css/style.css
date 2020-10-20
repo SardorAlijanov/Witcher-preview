@@ -147,6 +147,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 2;
+}
+.swiper-container {
+  max-width: 450px;
+  margin-left: 0 !important;
 }
 footer {
   background-color: #141218;

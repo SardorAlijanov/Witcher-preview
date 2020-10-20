@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <header>
@@ -71,16 +73,25 @@
                 </button>
             </div>
             <!-- /.main-content -->
+
             <div class="series">
-                <div class="card episode-1">
-                    <span class="card-sub-title">Episode 1</span>
-                    <h2 class="card-title">The End's Beginning</h2>
-                </div>
-                <div class="card episode-2">
-                    <span class="card-sub-title">Episode 2</span>
-                    <h2 class="card-title">Four Marks</h2>
-                </div>
-                <div class="navigation">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card episode-1">
+                                <span class="card-sub-title">Episode 1</span>
+                                <h2 class="card-title">The End's Beginning</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card episode-2">
+                                <span class="card-sub-title">Episode 2</span>
+                                <h2 class="card-title">Four Marks</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
                     <button class="arrow"></button>
                 </div>
             </div>
@@ -105,5 +116,8 @@
         </div>
         <!-- /.footer-content -->
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script> 
 </body>
 </html>
