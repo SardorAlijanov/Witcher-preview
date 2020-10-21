@@ -86,6 +86,9 @@ body {
   border: none;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .play-image {
   position: relative;
